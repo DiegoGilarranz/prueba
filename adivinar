@@ -1,0 +1,30 @@
+   #include <stdio.h>
+   #include <stdlib.h>
+   
+   int main(int argc, char *argv[]) {
+       int edad;
+       int zapatilla;
+       int nacimiento;
+       int numero;
+   
+      system ("clear");
+  
+      system("figlet El juego de la adivinanza");
+  
+      printf("Introducir tu numero de zapatilla\n");
+      scanf(" %i", &zapatilla);
+  
+      printf(" Introduce un numero menor que 100\n");
+      scanf(" %i", &numero);
+  
+      printf(" Introduce tu año de nacimiento\n");
+      scanf (" %i", &nacimiento);
+  
+      printf("Tu edad es %i\n", (((((zapatilla * 2) + 5) * 50) - nacimiento) + 1764));
+  
+      printf(" Los dos primeros numeros son tu numero de calzado, los dos siguientes tu edad. \n");
+  
+  
+  
+          return EXIT_SUCCESS;
+  }
